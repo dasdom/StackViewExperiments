@@ -11,11 +11,22 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-  var window: UIWindow?
-
+  var window: UIWindow? = UIWindow(frame: UIScreen.mainScreen().bounds)
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-    // Override point for customization after application launch.
+
+    let stackViewController = ProfileWithStackViewViewController()
+    stackViewController.title = "StackView"
+    
+    let autoLayoutViewController = ProfileWithAutoLayoutViewController()
+    autoLayoutViewController.title = "AutoLayout"
+
+    let tabBarViewController = UITabBarController()
+    tabBarViewController.viewControllers = [stackViewController, autoLayoutViewController]
+    
+    window!.rootViewController = tabBarViewController
+    window!.makeKeyAndVisible()
+    
     return true
   }
 
