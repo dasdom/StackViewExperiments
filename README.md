@@ -2,6 +2,8 @@
 
 UIStackView experiments
 
+![](https://raw.githubusercontent.com/dasdom/StackViewExperiments/master/screenshot.png)
+
 ## Author
 
 Dominik Hauser
