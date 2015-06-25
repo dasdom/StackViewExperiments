@@ -22,6 +22,7 @@
 		F20A76221B2B67140071751A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F20A76251B2B67140071751A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F20A76271B2B67140071751A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2B306BC1B3BD16400943305 /* UIStackViewPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UIStackViewPlayground.playground; sourceTree = "<group>"; };
 		F2FC43F21B2C9F6700851923 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		F2FC43F31B2C9F6700851923 /* ProfileWithStackViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileWithStackViewViewController.swift; sourceTree = "<group>"; };
 		F2FC43F61B2C9FC300851923 /* ProfileWithAutoLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileWithAutoLayoutViewController.swift; path = ProfileWithAutoLayout/ProfileWithAutoLayoutViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				F20A761B1B2B67140071751A /* AppDelegate.swift */,
+				F2B306BC1B3BD16400943305 /* UIStackViewPlayground.playground */,
 				F2FC43F81B2C9FCC00851923 /* ProfileWithAutoLayout */,
 				F2FC43F11B2C9F6700851923 /* ProfileWithStackView */,
 				F20A76221B2B67140071751A /* Assets.xcassets */,
